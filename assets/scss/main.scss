@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url(../fonts/ProductSans/ProductSansRegular.ttf);
+}
+
+$font-stack: 'Product Sans';
+$kuning : #ffbe00;
+$biru : #1c819d;
+$padding-10px : 10px;
+
+body {
+  font-family: $font-stack;
+
+    nav {
+        border-bottom: 0.5px solid #eee;
+
+        .navbar-brand {
+            img {
+                width: auto;
+                height: 60px;
+            }
+        }
+
+        li.nav-item {
+            margin-right: 8px;
+            padding-top: $padding-10px;
+
+            a.nav-link {
+                font-weight: bold;
+
+                span {
+                    color:$biru;
+                    letter-spacing: 1px;
+                }
+            }
+            a.nav-link:hover {
+                font-weight: bold;
+
+                span {
+                    border-bottom: 1.5px solid $kuning;
+                    letter-spacing: 1px;
+                }
+                
+            }
+        }
+
+        li.nav-item-button {
+            margin-left:10px;
+            padding-top: $padding-10px;
+
+            button.btn_kontak {
+                background-color: white;
+                border: 1px solid $biru;
+                padding: 4px 15px 4px 15px;
+                border-radius: 5px;
+                text-transform: uppercase;
+
+                span {
+                    font-size: 14px;
+                    color: $biru;
+                }
+            }
+
+            button.btn_kontak:hover {
+                background-color: $biru;
+
+                span {
+                    font-size: 14px;
+                    color: white;
+                }
+            }
+
+        }
+    }
+
+    #hightlight {
+        width: 100%;
+        height: 450px;
+        border-bottom: 0.5px solid #eee;
+    }
+}
