@@ -13,6 +13,7 @@ body {
   font-family: $font-stack;
 
     nav {
+        margin-bottom: 40px;
         border-bottom: 0.5px solid #eee;
 
         .navbar-brand {
@@ -74,9 +75,60 @@ body {
         }
     }
 
-    #hightlight {
+    #hl {
         width: 100%;
         height: 450px;
         border-bottom: 0.5px solid #eee;
+
+        h1 {
+            width: 250px;
+            
+            span {
+                font-size: 48px;
+                color: $biru;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+        }
+
+        #garis {
+            margin: -20px 0px 20px 2px;
+            width:120px;
+            height:5px;
+            background-color: $kuning;
+            border-radius: 10px; 
+        }
+
+        h5 {
+            width: 75%;
+            text-align: justify;
+            margin-bottom: 20px;
+            span {
+                color: $biru;
+                opacity: 90%;
+                font-size: 18px;
+            }
+        }
+
+        button.btn_hl {
+            border: 0.1px solid white;
+            background-color: $kuning;
+            padding: 4px 25px 4px 25px;
+            border-radius: 20px;
+
+            span {
+                font-size: 14px;
+                color: white;
+                text-transform: capitalize;
+            }
+        }
+
+        .hl_img {
+
+            img {
+                width: auto;
+                height: 300px;
+            }
+        }
     }
 }
