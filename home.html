@@ -7,13 +7,14 @@
         <title>Home | HIMSI UIN JAKARTA</title>
         <link rel="shortcut icon" href="assets/image/dadi.png">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/scss/main.css">
     </head>
 
     <body>
         <nav class="navbar navbar-expand-md bg-blue navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="/home.html">
                     <img src="assets/image/HIMSI.png" alt="img ga ada">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcollapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +24,13 @@
                 <div class="collapse navbar-collapse" id="navcollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/"><span> Profil HIMSI </span></a>
+                            <a class="nav-link" href="/profil_himsi.html"><span> Profil HIMSI </span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/"><span> Event </span></a>
+                            <a class="nav-link" href="/event.html"><span> Event </span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/"><span> Berita HIMSI </span></a>
+                            <a class="nav-link" href="/berita_himsi.html"><span> Berita HIMSI </span></a>
                         </li>
                         <li class="nav-item-button">
                             <button class="btn_kontak"><span>Login</span></button>
@@ -41,21 +42,126 @@
         <div id="hl">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6">
-                        <h1><span>Programing Class</span></h1>
-                        <div id="garis"></div>
-                        <h5><span>Programing Class merupakan kegiatan untuk mewadahi mahasiswa Sistem Informasi UIN Jakarta, khususnya dalam bahasa pemograman. Selain itu, kegiatan ini juga bertujuan untuk menggali potensi yang dimiliki oleh peserta dan dapat meningkatkan prestasi mahasiswa SI UIN Jakarta.</span></h5>
-                        <button class="btn_hl"><span>Daftar Segera</span></button>
-                    </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="hl_img">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="img-hl">
                             <img src="assets/image/hl_img.png">
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <div class="text-hl">
+                            <h1><span>Himpunan Sistem Informasi</span></h1>
+                            <div id="garis"></div>
+                            <h5><span>HIMSI UIN Syarif Hidayatullah Jakarta</span> didirikan pada hari jum’at, 17 oktober 2003, bertempat di Fakultas Sains dan Teknologi UIN Syarif Hidayatullah Jakarta. <span>HIMSI UIN Syarif Hidayatullah Jakarta</span> bersifat independen, kebebasan akademik, kebenaran ilmiah, kesetaraan keilmuan yang kolektif serta penuh keterbukaan dan keadilan.</h5>
+                            <a href="/profil_himsi.html" class="btn_hl"><span>Lihat lebih detail..</span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="event">
+            <div class="container">
+                <div class="row">
+                    <div class="text-event">
+                        <h1><span>Event</span></h1>
+                        <div id="garis"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="berita-himsi">
+            <div class="container">
+                <div class="row">
+                    <div class="text-berita">
+                        <h1><span>Berita <span>HIMSI</span></span></h1>
+                        <div id="garis"></div>
+                    </div>
+                    <div class="content-berita">
+                        <div class="row">
+                            <div class="col-md-4 sm-12">
+                                <div class="card h-100">
+                                    <img class="card-img-top" src="/assets/image/orbit.png" width="392" height="214" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="jenis-berita">
+                                            <h5 class="jenis-berita-text">Info</h5>
+                                        </div>
+                                        <h5 class="card-title">Beasiswa DJARUM 2019</h5>
+                                        <p class="card-text">Beasiswa yang diadakan oleh Djarum Foundation dengan berkerja sama dengan Universitas Islam Negeri Syarif Hidayatullah Jakarta. </p>
+                                        <a href="#" class="btn btn-primary">Baca Selengkapnya...</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 sm-12">
+                                <div class="card h-100">
+                                    <img class="card-img-top" src="/assets/image/orbit.png" width="392" height="214" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="jenis-berita">
+                                            <h5 class="jenis-berita-text">Acara</h5>
+                                        </div>
+                                        <h5 class="card-title">BUBAKSO 2019</h5>
+                                        <p class="card-text">Buka bersama lintas angkatan dan bakti sosial ini diadakan rutin setiap bulan puasa.</p>
+                                        <a href="#" class="btn btn-primary">Baca Selengkapnya...</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 sm-12">
+                                <div class="card h-100">
+                                    <img class="card-img-top" src="/assets/image/orbit.png" width="392" height="214" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="jenis-berita">
+                                            <h5 class="jenis-berita-text">Artikel</h5>
+                                        </div>
+                                        <h5 class="card-title">Popularitas Data Analyst</h5>
+                                        <p class="card-text">Data analyst saat ini sangat populer karena banyak dibutuhkan oleh perusahaan - perusahaan dalam menganalisis datanya.</p>
+                                        <a href="#" class="btn btn-primary">Baca Selengkapnya...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 sm-12">
+                                <div class="wrapper">
+                                    <a href="/berita_himsi.html" class="btn-all-berita"><span>Lihat semua..</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-desc">
+                        <div class="col-md-6 sm-12">
+                            <img src="assets/image/HIMSI.png" width="auto" height="60" alt="img ga ada">
+                            <p><span>HIMSI UIN Syarif Hidayatullah Jakarta</span> didirikan pada hari jum’at, 17 oktober 2003, bertempat di Fakultas Sains dan Teknologi UIN Syarif Hidayatullah Jakarta. <p><span>HIMSI UIN Syarif Hidayatullah Jakarta</span> bersifat independen, kebebasan akademik, kebenaran ilmiah, kesetaraan keilmuan yang kolektif serta penuh keterbukaan dan keadilan</p></p>
+                        </div>
+                    </div>
+                    <div class="footer-follow">
+                        <div class="col-md-6 sm-12">
+                            <p>Follow us At</p>
+                            <div id="garis"></div>
+                            <p class="footer-sosmed">
+                                <a href="https://www.linkedin.com/in/dadi-ilham-setiadi-a22aa5155/"><i class="fa fa-twitter fa-lg"></i></a>
+                                <a href="https://www.instagram.com/idadhamz/"><i class="fa fa-instagram fa-lg"></i></a>
+                                <a href="https://github.com/idadhamz"><i class="fa fa-facebook fa-lg"></i></a>
+                                <a href="https://github.com/idadhamz"><i class="fa fa-youtube fa-lg"></i></a>
+                            </p>
+                            <p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6763140557846!2d106.75042441397973!3d-6.306188995436004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69efdeac1b16ad%3A0x15d6f029c44e483f!2sScience+and+Technology+Faculty!5e0!3m2!1sen!2sid!4v1561810977162!5m2!1sen!2sid" 
+                                width="450" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div style="border-top:1px solid #eee; margin: 30px 50px 0px 50px"></div>
+                <p class="footer-end">© <script>document.write(new Date().getFullYear());</script> HIMSI UIN JAKARTA</p>
+            </div>
+        </div>
     </body>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </html>
