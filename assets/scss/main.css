@@ -71,25 +71,24 @@ body #hl .text-hl h1 {
   width: 450px;
 }
 body #hl .text-hl h1 span {
-  font-size: 52px;
+  font-size: 48px;
   color: #1c819d;
   font-weight: bold;
   letter-spacing: 2px;
 }
 body #hl .text-hl #garis {
   margin: -20px 0px 20px 0px;
-  width: 225px;
+  width: 210px;
   height: 5px;
   background-color: #ffbe00;
   border-radius: 10px;
 }
-body #hl .text-hl h5 {
-  width: 75%;
-  font-size: 17px;
-  margin-bottom: 20px;
+body #hl .text-hl p {
+  width: 475px;
+  margin: 10px 0px 20px 0px;
   text-align: justify;
 }
-body #hl .text-hl h5 span {
+body #hl .text-hl p span {
   font-weight: bold;
 }
 body #hl .text-hl a.btn_hl {
@@ -127,6 +126,96 @@ body #event .text-event #garis {
   background-color: #ffbe00;
   border-radius: 10px;
 }
+body #event .content-event {
+  width: 100%;
+  margin-bottom: 40px;
+}
+body #event .content-event .card {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+body #event .content-event .card .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+body #event .content-event .card .card-body {
+  text-align: left;
+}
+body #event .content-event .card .card-body .jenis-event {
+  width: fit-content;
+  height: auto;
+  background-color: #eee;
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+body #event .content-event .card .card-body .jenis-event .jenis-event-text {
+  padding: 5px 10px 5px 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #1c819d;
+  font-weight: bold;
+}
+body #event .content-event .card .card-body .card-title {
+  font-weight: bold;
+  font-size: 17px;
+}
+body #event .content-event .card .card-body .card-text {
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+body #event .content-event .card .card-body .btn {
+  font-size: 14px;
+  background-color: #1c819d;
+}
+body #event .content-event .card .person-text {
+  width: fit-content;
+  font-size: 12px;
+  color: grey;
+  float: left;
+  padding-left: 20px;
+}
+body #event .content-event .card .person-text i {
+  padding-right: 10px;
+}
+body #event .content-event .card .date-text {
+  width: fit-content;
+  font-size: 12px;
+  color: grey;
+  float: right;
+  padding-right: 20px;
+}
+body #event .content-event .card .date-text i {
+  padding-right: 10px;
+}
+body #event .content-event .wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+body #event .content-event .wrapper a.btn-all-event {
+  background-color: #ffbe00;
+  padding: 12px 30px 12px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+body #event .content-event .wrapper a.btn-all-event span {
+  font-size: 14px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+body #event .content-event .wrapper a.btn-all-event:hover {
+  background-color: white;
+  border: 1px solid #ffbe00;
+}
+body #event .content-event .wrapper a.btn-all-event:hover span {
+  color: #ffbe00;
+}
 body #berita-himsi {
   width: 100%;
   height: auto;
@@ -153,75 +242,6 @@ body #berita-himsi .text-berita #garis {
   background-color: #ffbe00;
   border-radius: 10px;
 }
-body #berita-himsi .content-berita {
-  width: 100%;
-  margin-bottom: 40px;
-}
-body #berita-himsi .content-berita .card {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  text-align: center;
-}
-body #berita-himsi .content-berita .card .card-img-top {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-body #berita-himsi .content-berita .card .card-body {
-  text-align: left;
-}
-body #berita-himsi .content-berita .card .card-body .jenis-berita {
-  width: fit-content;
-  height: auto;
-  background-color: #eee;
-  margin-bottom: 12px;
-  border-radius: 3px;
-}
-body #berita-himsi .content-berita .card .card-body .jenis-berita .jenis-berita-text {
-  padding: 5px 10px 5px 10px;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #1c819d;
-  font-weight: bold;
-}
-body #berita-himsi .content-berita .card .card-body .card-title {
-  font-weight: bold;
-  font-size: 17px;
-}
-body #berita-himsi .content-berita .card .card-body .card-text {
-  font-size: 15px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-}
-body #berita-himsi .content-berita .card .card-body .btn {
-  font-size: 14px;
-  background-color: #1c819d;
-}
-body #berita-himsi .content-berita .wrapper {
-  text-align: center;
-  margin-top: 40px;
-}
-body #berita-himsi .content-berita .wrapper a.btn-all-berita {
-  background-color: #ffbe00;
-  padding: 12px 30px 12px 30px;
-  border-radius: 20px;
-  text-decoration: none;
-}
-body #berita-himsi .content-berita .wrapper a.btn-all-berita span {
-  font-size: 14px;
-  color: white;
-  text-transform: capitalize;
-  font-size: 15px;
-}
-body #berita-himsi .content-berita .wrapper a.btn-all-berita:hover {
-  background-color: white;
-  border: 1px solid #ffbe00;
-}
-body #berita-himsi .content-berita .wrapper a.btn-all-berita:hover span {
-  color: #ffbe00;
-}
 body #footer {
   width: 100%;
   height: auto;
@@ -231,7 +251,7 @@ body #footer .footer-desc {
   margin: 0px 0px 0px 50px;
 }
 body #footer .footer-desc img {
-  margin: 40px 0px 15px 0px;
+  margin: 40px 0px 25px 0px;
 }
 body #footer .footer-desc p {
   width: 350px;
@@ -242,7 +262,7 @@ body #footer .footer-desc p span {
   font-weight: bold;
 }
 body #footer .footer-follow {
-  margin: 40px 0px 15px 150px;
+  margin: 45px 0px 15px 150px;
 }
 body #footer .footer-follow p {
   width: 400px;

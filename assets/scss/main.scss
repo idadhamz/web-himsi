@@ -98,7 +98,7 @@ body {
                 width: 450px;
                 
                 span {
-                    font-size: 52px;
+                    font-size: 48px;
                     color: $biru;
                     font-weight: bold;
                     letter-spacing: 2px;
@@ -107,17 +107,17 @@ body {
 
             #garis {
                 margin: -20px 0px 20px 0px;
-                width:225px;
+                width:210px;
                 height:5px;
                 background-color: $kuning;
                 border-radius: 10px; 
             }
 
-            h5 {
-                width: 75%;
-                font-size: 17px;
-                margin-bottom: 20px;
+            p {
+                width: 475px;
+                margin: 10px 0px 20px 0px;
                 text-align: justify;
+
                 span {
                     font-weight: bold;
                 }
@@ -168,6 +168,112 @@ body {
                 border-radius: 10px; 
             }
         }
+        .content-event {
+            width: 100%;
+            margin-bottom: 40px;
+
+            .card {
+                border-top-left-radius: $padding-10px;
+                border-top-right-radius: $padding-10px;
+                text-align: center;
+
+                .card-img-top {
+                    border-top-left-radius: $padding-10px;
+                    border-top-right-radius: $padding-10px;
+                }
+
+                .card-body {
+                    text-align: left;
+
+                    .jenis-event {
+                        width: fit-content;
+                        height: auto;
+                        background-color: #eee;
+                        margin-bottom: 12px;
+                        border-radius: 3px;
+
+                        .jenis-event-text {
+                            padding: 5px 10px 5px 10px;
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            color: #1c819d;
+                            font-weight: bold;
+                        }
+
+                    }
+
+                    .card-title {
+                        font-weight: bold;
+                        font-size: 17px;
+                    }
+
+                    .card-text {
+                        font-size: 15px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;      
+                        -webkit-line-clamp: 4; 
+                        -webkit-box-orient: vertical;
+                    }
+
+                    .btn {
+                        font-size: 14px;
+                        background-color: #1c819d;
+                    }
+                }
+
+                padding-bottom: 20px;
+                .person-text {
+                    width: fit-content;
+                    font-size: 12px;
+                    color: grey;
+                    float: left;
+                    padding-left: 20px;
+
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+
+                .date-text {
+                    width: fit-content;
+                    font-size: 12px;
+                    color: grey;
+                    float: right;
+                    padding-right: 20px;
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+            }
+
+            .wrapper {
+                text-align: center;
+                margin-top: 40px;
+
+                a.btn-all-event {
+                    background-color: $kuning;
+                    padding: 12px 30px 12px 30px;
+                    border-radius: 20px;
+                    text-decoration: none;
+    
+                    span {
+                        font-size: 14px;
+                        color: white;
+                        text-transform: capitalize;
+                        font-size: 15px;
+                    }
+                }
+                a.btn-all-event:hover {
+                    background-color: white;
+                    border: 1px solid $kuning;
+                    
+                    span {
+                        color:$kuning;
+                    }
+                }
+            }
+        }
     }
 
     #berita-himsi {
@@ -203,90 +309,8 @@ body {
                 border-radius: 10px; 
             }
         }
-
-        .content-berita {
-            width: 100%;
-            margin-bottom: 40px;
-
-            .card {
-                border-top-left-radius: $padding-10px;
-                border-top-right-radius: $padding-10px;
-                text-align: center;
-
-                .card-img-top {
-                    border-top-left-radius: $padding-10px;
-                    border-top-right-radius: $padding-10px;
-                }
-
-                .card-body {
-                    text-align: left;
-
-                    .jenis-berita {
-                        width: fit-content;
-                        height: auto;
-                        background-color: #eee;
-                        margin-bottom: 12px;
-                        border-radius: 3px;
-
-                        .jenis-berita-text {
-                            padding: 5px 10px 5px 10px;
-                            font-size: 12px;
-                            text-transform: uppercase;
-                            color: #1c819d;
-                            font-weight: bold;
-                        }
-
-                    }
-
-                    .card-title {
-                        font-weight: bold;
-                        font-size: 17px;
-                    }
-
-                    .card-text {
-                        font-size: 15px;
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        display: -webkit-box;      
-                        -webkit-line-clamp: 4; 
-                        -webkit-box-orient: vertical;
-                    }
-
-                    .btn {
-                        font-size: 14px;
-                        background-color: #1c819d;
-                    }
-                }
-            }
-
-            .wrapper {
-                text-align: center;
-                margin-top: 40px;
-
-                a.btn-all-berita {
-                    background-color: $kuning;
-                    padding: 12px 30px 12px 30px;
-                    border-radius: 20px;
-                    text-decoration: none;
-    
-                    span {
-                        font-size: 14px;
-                        color: white;
-                        text-transform: capitalize;
-                        font-size: 15px;
-                    }
-                }
-                a.btn-all-berita:hover {
-                    background-color: white;
-                    border: 1px solid $kuning;
-                    
-                    span {
-                        color:$kuning;
-                    }
-                }
-            }
-        }
     }
+
     #footer {
         width: 100%;
         height: auto;
@@ -295,7 +319,7 @@ body {
         .footer-desc {
             margin: 0px 0px 0px 50px;
             img {
-                margin: 40px 0px 15px 0px;
+                margin: 40px 0px 25px 0px;
             }
             p {
                 width: 350px;
@@ -308,7 +332,7 @@ body {
             }
         }
         .footer-follow {
-            margin: 40px 0px 15px 150px;
+            margin: 45px 0px 15px 150px;
             p {
                 width: 400px;
                 font-size: 23px;
