@@ -242,6 +242,11 @@ body #berita-himsi .text-berita #garis {
   background-color: #ffbe00;
   border-radius: 10px;
 }
+body #berita-himsi .content-berita {
+  width: 100%;
+  margin-bottom: 40px;
+  height: auto;
+}
 body #footer {
   width: 100%;
   height: auto;
