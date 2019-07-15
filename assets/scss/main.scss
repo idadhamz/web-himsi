@@ -90,19 +90,16 @@ body {
             }
         }
 
-        .text-hl {
-
-            margin-left: 75px;
-
+        #text-hl {
             h1 {
-                width: 450px;
-                
-                span {
-                    font-size: 48px;
+                // width: 450px;
+                font-size: 48px;
                     color: $biru;
                     font-weight: bold;
                     letter-spacing: 2px;
-                }
+                // span {
+                    
+                // }
             }
 
             #garis {
@@ -114,7 +111,7 @@ body {
             }
 
             p {
-                width: 475px;
+                // width: 475px;
                 margin: 10px 0px 20px 0px;
                 text-align: justify;
 
@@ -322,13 +319,13 @@ body {
         height: auto;
         border-top: 0.5px solid #eeeeee;
 
-        .footer-desc {
-            margin: 0px 0px 0px 50px;
+        #footer-desc {
+            // margin: 0px 0px 0px 50px;
             img {
                 margin: 40px 0px 25px 0px;
             }
             p {
-                width: 350px;
+                // width: 350px;
                 margin: 10px 0px 0px 0px;
                 text-align: justify;
     
@@ -337,10 +334,10 @@ body {
                 }
             }
         }
-        .footer-follow {
-            margin: 45px 0px 15px 150px;
+        #footer-follow {
+            // margin: 45px 0px 15px 150px;
             p {
-                width: 400px;
+                // width: 400px;
                 font-size: 23px;
                 text-transform: uppercase;
                 font-weight: bold;
@@ -355,7 +352,7 @@ body {
                 margin-top: -10px;
             }
 
-            p.footer-sosmed {
+            div.footer-sosmed {
                 margin: 25px 0px 35px 0px;
 
                 a {
