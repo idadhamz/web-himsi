@@ -4,7 +4,12 @@
     src: url(../fonts/ProductSans/ProductSansRegular.ttf);
 }
 
-$font-stack: 'Product Sans';
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+$font-stack: 'Ubuntu';
 $kuning : #ffbe00;
 $biru : #1c819d;
 $padding-10px : 10px;
@@ -74,6 +79,8 @@ body {
 
         }
     }
+
+    /* Landing Page */
 
     #hl {
         width: 100%;
@@ -313,6 +320,121 @@ body {
             height: auto;
         }
     }
+
+    /* End Of landing Page */
+
+    /* Profil HIMSI Page */
+
+    #profil-himsi {
+        width: 100%;
+        height: auto;
+        border-top: 0.5px solid #eeeeee;
+
+        .text-profil-himsi {
+
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 40px;
+
+            h1 {
+                
+                span {
+                    font-size: 28px;
+                    color: $biru;
+                    letter-spacing: 2px;
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            #garis {
+                margin: 5px auto;
+                width:90px;
+                height:3px;
+                background-color: $kuning;
+                border-radius: 10px; 
+            }
+        }
+
+        .content-profil-himsi {
+            width: 100%;
+            margin-bottom: 40px;
+            height: auto;
+
+            p {
+                /*width: 80%;*/
+                /*padding: 0px 40px 0px 40px;*/
+                size: 24px;
+                text-align: center;
+
+                span {
+                    color: $biru;
+                    border-bottom: 1px solid $kuning;
+                }
+            }
+        }
+    }
+
+    /* End of Profil HIMSI Page */
+
+    /* Visi & Misi HIMSI Page */
+
+    #visi-misi-himsi {
+        width: 100%;
+        height: auto;
+        border-top: 0.5px solid #eeeeee;
+
+        .text-visi-misi-himsi {
+
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 40px;
+
+            h1 {
+                
+                span {
+                    font-size: 28px;
+                    color: $biru;
+                    letter-spacing: 2px;
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            #garis {
+                margin: 5px auto;
+                width:90px;
+                height:3px;
+                background-color: $kuning;
+                border-radius: 10px; 
+            }
+        }
+
+        .content-visi-misi-himsi {
+            width: 100%;
+            margin-bottom: 40px;
+            height: auto;
+
+            p {
+                size: 24px;
+                text-align: justify;
+                margin: 5px 0px 5px 0px;
+
+                span {
+                    color: $biru;
+                    border-bottom: 1px solid $kuning;
+                }
+            }
+        }
+    }
+
+    /* End of Profil HIMSI Page */
 
     #footer {
         width: 100%;
