@@ -284,6 +284,7 @@ body {
         width: 100%;
         height: auto;
         border-top: 0.5px solid #eeeeee;
+        margin-bottom: 20px;
 
         .text-berita {
 
@@ -335,7 +336,7 @@ body {
             text-align: center;
             width: 100%;
             margin-top: 20px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
 
             h1 {
                 
@@ -364,11 +365,20 @@ body {
             margin-bottom: 40px;
             height: auto;
 
+            img {
+                width: 100%;
+                height: auto;
+                // border-radius: 5px;
+                padding: 20px;
+            }
+            
             p {
                 /*width: 80%;*/
                 /*padding: 0px 40px 0px 40px;*/
-                size: 24px;
+                size: 28px;
                 text-align: center;
+                padding: 20px 40px 20px 40px;
+                // vertical-align: middle;
 
                 span {
                     color: $biru;
@@ -409,7 +419,7 @@ body {
 
             #garis {
                 margin: 5px auto;
-                width:90px;
+                width:120px;
                 height:3px;
                 background-color: $kuning;
                 border-radius: 10px; 
@@ -419,16 +429,44 @@ body {
         .content-visi-misi-himsi {
             width: 100%;
             margin-bottom: 40px;
+            margin-top: -50px;
             height: auto;
+            
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            h2.tujuan_fungsi {
+                span {
+                    margin: 20px;
+                    size: 28px;
+                    color: $biru;
+                    border-bottom: 2px solid $kuning;
+                }
+            }
 
             p {
                 size: 24px;
                 text-align: justify;
-                margin: 5px 0px 5px 0px;
+                margin: 20px;
 
                 span {
+                    font-weight: bold;
                     color: $biru;
                     border-bottom: 1px solid $kuning;
+                }
+            }
+            ul {
+                li {
+                    span {
+                        font-weight: bold;
+                        color: $biru;
+                        border-bottom: 1px solid $kuning;
+                    }
                 }
             }
         }

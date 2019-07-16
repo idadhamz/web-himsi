@@ -223,6 +223,7 @@ body #berita-himsi {
   width: 100%;
   height: auto;
   border-top: 0.5px solid #eeeeee;
+  margin-bottom: 20px;
 }
 body #berita-himsi .text-berita {
   text-align: center;
@@ -259,7 +260,7 @@ body #profil-himsi .text-profil-himsi {
   text-align: center;
   width: 100%;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 body #profil-himsi .text-profil-himsi h1 span {
   font-size: 28px;
@@ -281,11 +282,17 @@ body #profil-himsi .content-profil-himsi {
   margin-bottom: 40px;
   height: auto;
 }
+body #profil-himsi .content-profil-himsi img {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
 body #profil-himsi .content-profil-himsi p {
   /*width: 80%;*/
   /*padding: 0px 40px 0px 40px;*/
-  size: 24px;
+  size: 28px;
   text-align: center;
+  padding: 20px 40px 20px 40px;
 }
 body #profil-himsi .content-profil-himsi p span {
   color: #1c819d;
@@ -312,7 +319,7 @@ body #visi-misi-himsi .text-visi-misi-himsi h1 span span {
 }
 body #visi-misi-himsi .text-visi-misi-himsi #garis {
   margin: 5px auto;
-  width: 90px;
+  width: 120px;
   height: 3px;
   background-color: #ffbe00;
   border-radius: 10px;
@@ -320,14 +327,34 @@ body #visi-misi-himsi .text-visi-misi-himsi #garis {
 body #visi-misi-himsi .content-visi-misi-himsi {
   width: 100%;
   margin-bottom: 40px;
+  margin-top: -50px;
   height: auto;
+}
+body #visi-misi-himsi .content-visi-misi-himsi img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+body #visi-misi-himsi .content-visi-misi-himsi h2.tujuan_fungsi span {
+  margin: 20px;
+  size: 28px;
+  color: #1c819d;
+  border-bottom: 2px solid #ffbe00;
 }
 body #visi-misi-himsi .content-visi-misi-himsi p {
   size: 24px;
   text-align: justify;
-  margin: 5px 0px 5px 0px;
+  margin: 20px;
 }
 body #visi-misi-himsi .content-visi-misi-himsi p span {
+  font-weight: bold;
+  color: #1c819d;
+  border-bottom: 1px solid #ffbe00;
+}
+body #visi-misi-himsi .content-visi-misi-himsi ul li span {
+  font-weight: bold;
   color: #1c819d;
   border-bottom: 1px solid #ffbe00;
 }
