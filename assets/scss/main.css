@@ -15,7 +15,9 @@ body {
   /* Profil HIMSI Page */
   /* End of Profil HIMSI Page */
   /* Visi & Misi HIMSI Page */
-  /* End of Profil HIMSI Page */
+  /* End of Visi & Misi Page */
+  /* Struktur Organisasi HIMSI Page */
+  /* End of Struktur Organisasi Page */
 }
 
 body nav {
@@ -104,7 +106,7 @@ body #hl #text-hl #garis {
   width: 210px;
   height: 5px;
   background-color: #ffbe00;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 body #hl #text-hl p {
@@ -150,11 +152,11 @@ body #event .text-event h1 span {
 }
 
 body #event .text-event #garis {
-  margin: 5px auto;
+  margin: 3px auto;
   width: 50px;
   height: 3px;
   background-color: #ffbe00;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 body #event .content-event {
@@ -296,11 +298,11 @@ body #berita-himsi .text-berita h1 span span {
 }
 
 body #berita-himsi .text-berita #garis {
-  margin: 5px auto;
+  margin: 3px auto;
   width: 90px;
   height: 3px;
   background-color: #ffbe00;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 body #berita-himsi .headline-news {
@@ -379,11 +381,11 @@ body #profil-himsi .text-profil-himsi h1 span span {
 }
 
 body #profil-himsi .text-profil-himsi #garis {
-  margin: 5px auto;
+  margin: 3px auto;
   width: 90px;
   height: 3px;
   background-color: #ffbe00;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 body #profil-himsi .content-profil-himsi {
@@ -436,11 +438,11 @@ body #visi-misi-himsi .text-visi-misi-himsi h1 span span {
 }
 
 body #visi-misi-himsi .text-visi-misi-himsi #garis {
-  margin: 5px auto;
+  margin: 3px auto;
   width: 120px;
   height: 3px;
   background-color: #ffbe00;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 body #visi-misi-himsi .content-visi-misi-himsi {
@@ -482,7 +484,32 @@ body #visi-misi-himsi .content-visi-misi-himsi ul li span {
   color: #1c819d;
   border-bottom: 1px solid #ffbe00;
 }
-
+body #struktur-organisasi {
+  width: 100%;
+  height: auto;
+  border-top: 0.5px solid #eeeeee;
+}
+body #struktur-organisasi .text-struktur-organisasi {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+body #struktur-organisasi .text-struktur-organisasi h1 span {
+  font-size: 28px;
+  color: #1c819d;
+  letter-spacing: 2px;
+}
+body #struktur-organisasi .text-struktur-organisasi h1 span span {
+  font-weight: bold;
+}
+body #struktur-organisasi .text-struktur-organisasi #garis {
+  margin: 3px auto;
+  width: 120px;
+  height: 3px;
+  background-color: #ffbe00;
+  border-radius: 5px;
+}
 body #footer {
   width: 100%;
   height: auto;
@@ -513,7 +540,7 @@ body #footer #footer-follow #garis {
   width: 80px;
   height: 3px;
   background-color: #ffbe00;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: -10px;
 }
 
