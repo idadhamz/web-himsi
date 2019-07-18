@@ -1,13 +1,11 @@
 @font-face {
-  font-family: 'Product Sans';
+  font-family: "Product Sans";
   src: url(../fonts/ProductSans/ProductSansRegular.ttf);
 }
-
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
-
 body {
   font-family: "Ubuntu";
   /* Landing Page */
@@ -19,44 +17,35 @@ body {
   /* Struktur Organisasi HIMSI Page */
   /* End of Struktur Organisasi Page */
 }
-
 body nav {
   border-bottom: 0.5px solid #eee;
 }
-
 body nav .navbar-brand img {
   width: auto;
   height: 60px;
 }
-
 body nav li.nav-item {
   margin-right: 8px;
   padding-top: 10px;
 }
-
 body nav li.nav-item a.nav-link {
   font-weight: bold;
 }
-
 body nav li.nav-item a.nav-link span {
   color: #1c819d;
   letter-spacing: 1px;
 }
-
 body nav li.nav-item a.nav-link:hover {
   font-weight: bold;
 }
-
 body nav li.nav-item a.nav-link:hover span {
   border-bottom: 1.5px solid #ffbe00;
   letter-spacing: 1px;
 }
-
 body nav li.nav-item-button {
   margin-left: 10px;
   padding-top: 10px;
 }
-
 body nav li.nav-item-button button.btn_kontak {
   background-color: white;
   border: 1px solid #1c819d;
@@ -64,43 +53,35 @@ body nav li.nav-item-button button.btn_kontak {
   border-radius: 5px;
   text-transform: uppercase;
 }
-
 body nav li.nav-item-button button.btn_kontak span {
   font-size: 14px;
   color: #1c819d;
 }
-
 body nav li.nav-item-button button.btn_kontak:hover {
   background-color: #1c819d;
 }
-
 body nav li.nav-item-button button.btn_kontak:hover span {
   font-size: 14px;
   color: white;
 }
-
 body #hl {
   width: 100%;
   height: auto;
   margin: 60px 0px 60px 0px;
 }
-
 body #hl .img-hl {
   margin: 0px 50px 0px 50px;
 }
-
 body #hl .img-hl img {
   width: auto;
   height: 300px;
 }
-
 body #hl #text-hl h1 {
   font-size: 48px;
   color: #1c819d;
   font-weight: bold;
   letter-spacing: 2px;
 }
-
 body #hl #text-hl #garis {
   margin: -20px 0px 20px 0px;
   width: 210px;
@@ -108,49 +89,41 @@ body #hl #text-hl #garis {
   background-color: #ffbe00;
   border-radius: 5px;
 }
-
 body #hl #text-hl p {
   margin: 10px 0px 20px 0px;
   text-align: justify;
 }
-
 body #hl #text-hl p span {
   font-weight: bold;
 }
-
 body #hl #text-hl a.btn_hl {
   text-decoration: none;
   background-color: #ffbe00;
   padding: 8px 25px 8px 25px;
   border-radius: 20px;
 }
-
 body #hl #text-hl a.btn_hl span {
   font-size: 14px;
   color: white;
   text-transform: capitalize;
 }
-
 body #event {
   width: 100%;
   height: auto;
   border-top: 0.5px solid #eeeeee;
 }
-
 body #event .text-event {
   text-align: center;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 body #event .text-event h1 span {
   font-size: 28px;
   color: #1c819d;
   letter-spacing: 2px;
   font-weight: bold;
 }
-
 body #event .text-event #garis {
   margin: 3px auto;
   width: 50px;
@@ -158,38 +131,30 @@ body #event .text-event #garis {
   background-color: #ffbe00;
   border-radius: 5px;
 }
-
 body #event .content-event {
   width: 100%;
   margin-bottom: 40px;
 }
-
 body #event .content-event .card {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   text-align: center;
   padding-bottom: 20px;
 }
-
 body #event .content-event .card .card-img-top {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
 body #event .content-event .card .card-body {
   text-align: left;
 }
-
 body #event .content-event .card .card-body .jenis-event {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   height: auto;
   background-color: #eee;
   margin-bottom: 12px;
   border-radius: 3px;
 }
-
 body #event .content-event .card .card-body .jenis-event .jenis-event-text {
   padding: 5px 10px 5px 10px;
   font-size: 12px;
@@ -197,12 +162,10 @@ body #event .content-event .card .card-body .jenis-event .jenis-event-text {
   color: #1c819d;
   font-weight: bold;
 }
-
 body #event .content-event .card .card-body .card-title {
   font-weight: bold;
   font-size: 17px;
 }
-
 body #event .content-event .card .card-body .card-text {
   font-size: 15px;
   overflow: hidden;
@@ -211,92 +174,73 @@ body #event .content-event .card .card-body .card-text {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
-
 body #event .content-event .card .card-body .btn {
   font-size: 14px;
   background-color: #1c819d;
 }
-
 body #event .content-event .card .person-text {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   font-size: 12px;
   color: grey;
   float: left;
   padding-left: 20px;
 }
-
 body #event .content-event .card .person-text i {
   padding-right: 10px;
 }
-
 body #event .content-event .card .date-text {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   font-size: 12px;
   color: grey;
   float: right;
   padding-right: 20px;
 }
-
 body #event .content-event .card .date-text i {
   padding-right: 10px;
 }
-
 body #event .content-event .wrapper {
   text-align: center;
   margin-top: 40px;
 }
-
 body #event .content-event .wrapper a.btn-all-event {
   background-color: #ffbe00;
   padding: 12px 30px 12px 30px;
   border-radius: 20px;
   text-decoration: none;
 }
-
 body #event .content-event .wrapper a.btn-all-event span {
   font-size: 14px;
   color: white;
   text-transform: capitalize;
   font-size: 15px;
 }
-
 body #event .content-event .wrapper a.btn-all-event:hover {
   background-color: white;
   border: 1px solid #ffbe00;
 }
-
 body #event .content-event .wrapper a.btn-all-event:hover span {
   color: #ffbe00;
 }
-
 body #berita-himsi {
   width: 100%;
   height: auto;
   border-top: 0.5px solid #eeeeee;
   margin-bottom: 20px;
 }
-
 body #berita-himsi .text-berita {
   text-align: center;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 40px;
 }
-
 body #berita-himsi .text-berita h1 span {
   font-size: 28px;
   color: #1c819d;
   letter-spacing: 2px;
 }
-
 body #berita-himsi .text-berita h1 span span {
   font-weight: bold;
 }
-
 body #berita-himsi .text-berita #garis {
   margin: 3px auto;
   width: 90px;
@@ -304,36 +248,30 @@ body #berita-himsi .text-berita #garis {
   background-color: #ffbe00;
   border-radius: 5px;
 }
-
 body #berita-himsi .content-berita {
   width: 100%;
   margin-bottom: 40px;
   height: auto;
 }
-
 body #profil-himsi {
   width: 100%;
   height: auto;
   border-top: 0.5px solid #eeeeee;
 }
-
 body #profil-himsi .text-profil-himsi {
   text-align: center;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 body #profil-himsi .text-profil-himsi h1 span {
   font-size: 28px;
   color: #1c819d;
   letter-spacing: 2px;
 }
-
 body #profil-himsi .text-profil-himsi h1 span span {
   font-weight: bold;
 }
-
 body #profil-himsi .text-profil-himsi #garis {
   margin: 3px auto;
   width: 90px;
@@ -341,56 +279,47 @@ body #profil-himsi .text-profil-himsi #garis {
   background-color: #ffbe00;
   border-radius: 5px;
 }
-
 body #profil-himsi .content-profil-himsi {
   width: 100%;
   margin-bottom: 40px;
   height: auto;
 }
-
 body #profil-himsi .content-profil-himsi img {
   width: 100%;
   height: auto;
   padding: 20px;
 }
-
 body #profil-himsi .content-profil-himsi p {
   /*width: 80%;*/
   /*padding: 0px 40px 0px 40px;*/
   size: 28px;
   text-align: center;
-  padding: 20px 40px 20px 40px;
+  padding: 20px;
 }
-
 body #profil-himsi .content-profil-himsi p span {
   color: #1c819d;
   border-bottom: 1px solid #ffbe00;
   font-weight: bold;
 }
-
 body #visi-misi-himsi {
   width: 100%;
   height: auto;
   border-top: 0.5px solid #eeeeee;
 }
-
 body #visi-misi-himsi .text-visi-misi-himsi {
   text-align: center;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 40px;
 }
-
 body #visi-misi-himsi .text-visi-misi-himsi h1 span {
   font-size: 28px;
   color: #1c819d;
   letter-spacing: 2px;
 }
-
 body #visi-misi-himsi .text-visi-misi-himsi h1 span span {
   font-weight: bold;
 }
-
 body #visi-misi-himsi .text-visi-misi-himsi #garis {
   margin: 3px auto;
   width: 120px;
@@ -398,14 +327,12 @@ body #visi-misi-himsi .text-visi-misi-himsi #garis {
   background-color: #ffbe00;
   border-radius: 5px;
 }
-
 body #visi-misi-himsi .content-visi-misi-himsi {
   width: 100%;
   margin-bottom: 40px;
   margin-top: -50px;
   height: auto;
 }
-
 body #visi-misi-himsi .content-visi-misi-himsi img {
   width: 100%;
   height: auto;
@@ -413,26 +340,22 @@ body #visi-misi-himsi .content-visi-misi-himsi img {
   padding: 20px;
   text-align: center;
 }
-
 body #visi-misi-himsi .content-visi-misi-himsi h2.tujuan_fungsi span {
   margin: 20px;
   size: 28px;
   color: #1c819d;
   border-bottom: 2px solid #ffbe00;
 }
-
 body #visi-misi-himsi .content-visi-misi-himsi p {
   size: 24px;
   text-align: justify;
   margin: 20px;
 }
-
 body #visi-misi-himsi .content-visi-misi-himsi p span {
   font-weight: bold;
   color: #1c819d;
   border-bottom: 1px solid #ffbe00;
 }
-
 body #visi-misi-himsi .content-visi-misi-himsi ul li span {
   font-weight: bold;
   color: #1c819d;
@@ -464,32 +387,74 @@ body #struktur-organisasi .text-struktur-organisasi #garis {
   background-color: #ffbe00;
   border-radius: 5px;
 }
+body #struktur-organisasi .content-struktur-organisasi {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  height: auto;
+}
+body #struktur-organisasi .content-struktur-organisasi #pills-tab {
+  display: flex;
+  justify-content: center;
+}
+body #struktur-organisasi .content-struktur-organisasi #pills-tab .nav-item {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+body #struktur-organisasi .content-struktur-organisasi #pills-tab .nav-item .nav-link {
+  color: grey;
+  background-color: #eeeeee;
+}
+body #struktur-organisasi .content-struktur-organisasi #pills-tab .nav-item .nav-link.active {
+  background-color: #1c819d;
+  color: white;
+  font-weight: bold;
+}
+body #struktur-organisasi .content-struktur-organisasi #pills-tabContent .tab-pane.fade .row {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 30px;
+  margin: 20px;
+}
+body #struktur-organisasi .content-struktur-organisasi #pills-tabContent .tab-pane.fade .row img {
+  width: 90%;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+body #struktur-organisasi .content-struktur-organisasi #pills-tabContent .tab-pane.fade .row p {
+  size: 26px;
+  text-align: justify;
+  padding: 10px;
+}
+body #struktur-organisasi .content-struktur-organisasi #pills-tabContent .tab-pane.fade .row p span {
+  font-weight: bold;
+  color: #1c819d;
+  border-bottom: 1px solid #ffbe00;
+}
 body #footer {
   width: 100%;
   height: auto;
   border-top: 0.5px solid #eeeeee;
 }
-
 body #footer #footer-desc img {
   margin: 40px 0px 25px 0px;
 }
-
 body #footer #footer-desc p {
   margin: 10px 0px 0px 0px;
   text-align: justify;
 }
-
 body #footer #footer-desc p span {
   font-weight: bold;
 }
-
 body #footer #footer-follow p {
   font-size: 23px;
   text-transform: uppercase;
   font-weight: bold;
   color: #1c819d;
 }
-
 body #footer #footer-follow #garis {
   width: 80px;
   height: 3px;
@@ -497,11 +462,9 @@ body #footer #footer-follow #garis {
   border-radius: 5px;
   margin-top: -10px;
 }
-
 body #footer #footer-follow div.footer-sosmed {
   margin: 25px 0px 35px 0px;
 }
-
 body #footer #footer-follow div.footer-sosmed a {
   text-decoration: none;
   margin: 15px 5px 0px 5px;
@@ -510,14 +473,13 @@ body #footer #footer-follow div.footer-sosmed a {
   padding: 12px;
   color: #1c819d;
 }
-
 body #footer #footer-follow div.footer-sosmed a:hover {
   color: #ffbe00;
 }
-
 body #footer p.footer-end {
   text-align: center;
   margin: 20px 0px 20px 0px;
   color: grey;
 }
+
 /*# sourceMappingURL=main.css.map */
