@@ -114,7 +114,7 @@ body {
                 width:210px;
                 height:5px;
                 background-color: $kuning;
-                border-radius: 10px; 
+                border-radius: 5px; 
             }
 
             p {
@@ -165,11 +165,11 @@ body {
             }
 
             #garis {
-                margin: 5px auto;
+                margin: 3px auto;
                 width:50px;
                 height:3px;
                 background-color: $kuning;
-                border-radius: 10px; 
+                border-radius: 5px; 
             }
         }
         .content-event {
@@ -307,11 +307,11 @@ body {
             }
 
             #garis {
-                margin: 5px auto;
+                margin: 3px auto;
                 width:90px;
                 height:3px;
                 background-color: $kuning;
-                border-radius: 10px; 
+                border-radius: 5px; 
             }
         }
 
@@ -352,11 +352,11 @@ body {
             }
 
             #garis {
-                margin: 5px auto;
+                margin: 3px auto;
                 width:90px;
                 height:3px;
                 background-color: $kuning;
-                border-radius: 10px; 
+                border-radius: 5px; 
             }
         }
 
@@ -419,11 +419,11 @@ body {
             }
 
             #garis {
-                margin: 5px auto;
-                width:120px;
+                margin: 3px auto;
+                width: 120px;
                 height:3px;
                 background-color: $kuning;
-                border-radius: 10px; 
+                border-radius: 5px; 
             }
         }
 
@@ -473,7 +473,46 @@ body {
         }
     }
 
-    /* End of Profil HIMSI Page */
+    /* End of Visi & Misi Page */
+
+    /* Struktur Organisasi HIMSI Page */
+
+    #struktur-organisasi {
+        width: 100%;
+        height: auto;
+        border-top: 0.5px solid #eeeeee;
+
+        .text-struktur-organisasi {
+
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 40px;
+
+            h1 {
+                
+                span {
+                    font-size: 28px;
+                    color: $biru;
+                    letter-spacing: 2px;
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            #garis {
+                margin: 3px auto;
+                width: 120px;
+                height:3px;
+                background-color: $kuning;
+                border-radius: 5px; 
+            }
+        }
+    }
+
+    /* End of Struktur Organisasi Page */
 
     #footer {
         width: 100%;
@@ -509,7 +548,7 @@ body {
                 width:80px;
                 height:3px;
                 background-color: $kuning;
-                border-radius: 10px; 
+                border-radius: 5px; 
                 margin-top: -10px;
             }
 
