@@ -315,6 +315,50 @@ body {
             }
         }
 
+        .headline-news{
+            width: 100%;
+            height: 420px;
+            position: relative;
+            padding-left: 0;
+            padding-right: 0;
+
+            img{
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+
+            &:before{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top:0;
+                left: 0;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+
+            .headline-text{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                color: #eee;
+            }
+        }
+
+        .thumb-news{
+            width: 70px ;
+            height: 70px;
+            overflow: hidden;
+            
+            img{
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
         .content-berita {
             width: 100%;
             margin-bottom: 40px;
