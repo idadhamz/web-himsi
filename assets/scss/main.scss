@@ -104,8 +104,7 @@ body {
                 // width: 450px;
                 font-size: 48px;
                 color: $biru;
-                font-weight: bold;
-                letter-spacing: 2px;
+                font-weight: bold
                 // span {
                     
                 // }
@@ -161,8 +160,6 @@ body {
                 span {
                     font-size: 28px;
                     color: $biru;
-                    letter-spacing: 2px;
-                    font-weight: bold;
                 }
             }
 
@@ -255,7 +252,7 @@ body {
 
             .wrapper {
                 text-align: center;
-                margin-top: 40px;
+                margin: 10px 0px 10px 0px;
 
                 a.btn-all-event {
                     background-color: $kuning;
@@ -300,7 +297,6 @@ body {
                 span {
                     font-size: 28px;
                     color: $biru;
-                    letter-spacing: 2px;
 
                     span {
                         font-weight: bold;
@@ -391,7 +387,6 @@ body {
                 span {
                     font-size: 28px;
                     color: $biru;
-                    letter-spacing: 2px;
 
                     span {
                         font-weight: bold;
@@ -458,7 +453,6 @@ body {
                 span {
                     font-size: 28px;
                     color: $biru;
-                    letter-spacing: 2px;
 
                     span {
                         font-weight: bold;
@@ -486,7 +480,8 @@ body {
                 height: auto;
                 border-radius: 5px;
                 padding: 20px;
-                text-align: center;
+                display: block;
+                margin: 0 auto;
             }
 
             h2.tujuan_fungsi {
@@ -542,7 +537,6 @@ body {
                 span {
                     font-size: 28px;
                     color: $biru;
-                    letter-spacing: 2px;
 
                     span {
                         font-weight: bold;

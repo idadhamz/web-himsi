@@ -84,7 +84,6 @@ body #hl #text-hl h1 {
   font-size: 48px;
   color: #1c819d;
   font-weight: bold;
-  letter-spacing: 2px;
 }
 body #hl #text-hl #garis {
   margin: -20px 0px 20px 0px;
@@ -125,8 +124,6 @@ body #event .text-event {
 body #event .text-event h1 span {
   font-size: 28px;
   color: #1c819d;
-  letter-spacing: 2px;
-  font-weight: bold;
 }
 body #event .text-event #garis {
   margin: 3px auto;
@@ -204,7 +201,7 @@ body #event .content-event .card .date-text i {
 }
 body #event .content-event .wrapper {
   text-align: center;
-  margin-top: 40px;
+  margin: 10px 0px 10px 0px;
 }
 body #event .content-event .wrapper a.btn-all-event {
   background-color: #ffbe00;
@@ -240,7 +237,6 @@ body #berita-himsi .text-berita {
 body #berita-himsi .text-berita h1 span {
   font-size: 28px;
   color: #1c819d;
-  letter-spacing: 2px;
 }
 body #berita-himsi .text-berita h1 span span {
   font-weight: bold;
@@ -310,7 +306,6 @@ body #profil-himsi .text-profil-himsi {
 body #profil-himsi .text-profil-himsi h1 span {
   font-size: 28px;
   color: #1c819d;
-  letter-spacing: 2px;
 }
 body #profil-himsi .text-profil-himsi h1 span span {
   font-weight: bold;
@@ -358,7 +353,6 @@ body #visi-misi-himsi .text-visi-misi-himsi {
 body #visi-misi-himsi .text-visi-misi-himsi h1 span {
   font-size: 28px;
   color: #1c819d;
-  letter-spacing: 2px;
 }
 body #visi-misi-himsi .text-visi-misi-himsi h1 span span {
   font-weight: bold;
@@ -381,7 +375,8 @@ body #visi-misi-himsi .content-visi-misi-himsi img {
   height: auto;
   border-radius: 5px;
   padding: 20px;
-  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 body #visi-misi-himsi .content-visi-misi-himsi h2.tujuan_fungsi span {
   margin: 20px;
@@ -418,7 +413,6 @@ body #struktur-organisasi .text-struktur-organisasi {
 body #struktur-organisasi .text-struktur-organisasi h1 span {
   font-size: 28px;
   color: #1c819d;
-  letter-spacing: 2px;
 }
 body #struktur-organisasi .text-struktur-organisasi h1 span span {
   font-weight: bold;
