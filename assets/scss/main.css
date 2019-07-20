@@ -427,12 +427,13 @@ body #struktur-organisasi .text-struktur-organisasi #garis {
 body #struktur-organisasi .content-struktur-organisasi {
   width: 100%;
   margin-bottom: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
   height: auto;
 }
 body #struktur-organisasi .content-struktur-organisasi #pills-tab {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 body #struktur-organisasi .content-struktur-organisasi #pills-tab .nav-item {
   margin-right: 5px;
@@ -448,10 +449,11 @@ body #struktur-organisasi .content-struktur-organisasi #pills-tab .nav-item .nav
   font-weight: bold;
 }
 body #struktur-organisasi .content-struktur-organisasi #pills-tabContent .tab-pane.fade .row {
+  border: 1px solid #eeeeee;
   margin-right: 0px;
   margin-left: 0px;
-  padding: 30px;
-  margin: 20px;
+  padding: 20px;
+  margin: 30px;
 }
 body #struktur-organisasi .content-struktur-organisasi #pills-tabContent .tab-pane.fade .row img {
   width: 90%;
@@ -459,7 +461,6 @@ body #struktur-organisasi .content-struktur-organisasi #pills-tabContent .tab-pa
   border-radius: 5px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 20px;
 }
 body #struktur-organisasi .content-struktur-organisasi #pills-tabContent .tab-pane.fade .row p {
   size: 26px;
